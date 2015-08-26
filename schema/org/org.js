@@ -7,6 +7,10 @@ exports = module.exports = function(app, mongoose){
     org_type : {
       type : String
     },
+    rev : [{
+      type : mongoose.Schema.Types.ObjectId,
+      ref : 'Rev'
+    }],
     stats : {
       rating : {
         type : Number,

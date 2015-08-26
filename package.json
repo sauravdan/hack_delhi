@@ -7,9 +7,13 @@
     "doc": "doc"
   },
   "dependencies": {
+    "body-parser": "^1.13.2",
     "express": "^4.13.1",
     "http": "0.0.0",
-    "mongoose": "^4.1.0"
+    "http-status": "^0.2.0",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.1.0",
+    "multer": "^0.1.8"
   },
   "devDependencies": {},
   "scripts": {
